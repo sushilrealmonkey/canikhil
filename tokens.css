@@ -1,0 +1,66 @@
+/* Hallmark · tokens · tone: sober professional · anchor hue: ledger green */
+:root {
+  --color-paper: oklch(97% 0.018 84);
+  --color-paper-soft: oklch(94% 0.02 86);
+  --color-panel: oklch(99% 0.012 86);
+  --color-panel-72: oklch(99% 0.012 86 / 0.72);
+  --color-panel-95: oklch(99% 0.012 86 / 0.95);
+  --color-ink: oklch(22% 0.04 245);
+  --color-ink-82: oklch(22% 0.04 245 / 0.82);
+  --color-ink-58: oklch(22% 0.04 245 / 0.58);
+  --color-ink-22: oklch(22% 0.04 245 / 0.22);
+  --color-ink-18: oklch(22% 0.04 245 / 0.18);
+  --color-ink-grid: oklch(22% 0.04 245 / 0.035);
+  --color-ink-muted: oklch(43% 0.035 245);
+  --color-rule: oklch(82% 0.025 83);
+  --color-rule-strong: oklch(67% 0.036 145);
+  --color-accent: oklch(42% 0.085 151);
+  --color-accent-grid: oklch(42% 0.085 151 / 0.04);
+  --color-accent-strong: oklch(34% 0.09 151);
+  --color-blue: oklch(43% 0.09 245);
+  --color-blue-soft: oklch(90% 0.035 245);
+  --color-gold: oklch(73% 0.11 78);
+  --color-focus: oklch(50% 0.13 245);
+  --color-white: oklch(100% 0 0);
+  --color-white-10: oklch(100% 0 0 / 0.1);
+  --color-white-28: oklch(100% 0 0 / 0.28);
+  --color-white-35: oklch(100% 0 0 / 0.35);
+  --color-white-82: oklch(100% 0 0 / 0.82);
+  --color-header-bg: oklch(97% 0.018 84 / 0.92);
+  --color-transparent: transparent;
+
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+
+  --text-xs: clamp(0.78rem, 0.76rem + 0.08vw, 0.83rem);
+  --text-sm: clamp(0.88rem, 0.85rem + 0.11vw, 0.95rem);
+  --text-base: clamp(1rem, 0.97rem + 0.14vw, 1.08rem);
+  --text-lg: clamp(1.14rem, 1.08rem + 0.28vw, 1.3rem);
+  --text-xl: clamp(1.35rem, 1.25rem + 0.45vw, 1.65rem);
+  --text-2xl: clamp(1.7rem, 1.48rem + 0.95vw, 2.35rem);
+  --text-display: clamp(2.6rem, 1.85rem + 3.15vw, 5rem);
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.5rem;
+
+  --rule-hairline: 1px;
+  --shadow-soft: 0 1.5rem 4rem oklch(22% 0.04 245 / 0.11);
+  --shadow-tight: 0 0.75rem 1.6rem oklch(22% 0.04 245 / 0.1);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+}
