@@ -1,0 +1,12 @@
+{
+  "name": "canikhil",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for CA Nikhil Tiwari & Company.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
